@@ -3,6 +3,9 @@ package com.example.rocket.property;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
+/**
+ * @author chentao.ji
+ */
 @Component
 @ConfigurationProperties(prefix = "apache.rocketmq")
 public class ConfigProperties {
